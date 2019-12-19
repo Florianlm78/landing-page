@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'BebasNeueRegular';
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* Main */
+  
+  .main{
+    height: 650px;
+    background-image: url(img/photo-accueil.png);
+    background-size: cover;
+  }
+  
+  
+  .prochainement{
+    font-size: 70px;
+    color: white;
+    font-family: 'BebasNeueRegular';
+    letter-spacing: 15px;
+    text-align: center;
+    padding-top: 400px;
+  }
+  
+  .slogan{
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(196, 194, 194);
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+  /* Les Valeurs */
+  
+  .blockValeurs{
+    width: 100%;
+    height: 500px;
+  }
+  
+  .icon{
+    margin-top: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .iconV1{
+    height: 175px;
+    width: 175px;
+  }
+  
+  .iconV1 p{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'BebasNeueRegular';
+  }
+  
+  .iconV2{
+    height: 175px;
+    width: 175px;
+  }
+  
+  .iconV2 p{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'BebasNeueRegular';
+    font-weight: lighter;
+  }
+  
+  .iconV3{
+    height: 175px;
+    width: 175px;
+  }
+  
+  .iconV3 p{
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'BebasNeueRegular';
+  }
+  
+  .blockValeurs h2{
+    font-size: 56px;
+    text-align: center;
+    color: black;
+    font-family: 'BebasNeueRegular';
+    letter-spacing: 10px;
+  }
+  
+  
+  
+  
+  /* evenements */
+  
+  .blockEvenement h2{
+    margin-top: 100px;
+    font-size: 56px;
+    text-align: center;
+    color: black;
+    font-family: 'BebasNeueRegular';
+    letter-spacing: 10px;
+  }
+  
+  .imageEvenement{
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-left: 20%;
+    margin-top: 50px;
+  }
+  
+  .imageE{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 300px;
+    width: 300px;
+  }
+  
+  /* ---------------------------------------------------- */
+  /* le Carousel */
+  
+  .h2Partenaires{
+    position: relative;
+    margin-top: 150px;
+    font-size: 56px;
+    text-align: center;
+    color: black;
+    font-family: 'BebasNeueRegular';
+    letter-spacing: 10px;
+    z-index: 1;
+  }
+  
+  .mySlides1{
+    margin-top: -100px;
+  }
+  
+  .mySlides1,
+  .mySlides2 {
+    display: none;
+  }
+  img {
+    vertical-align: middle;
+  }
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 200px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev{
+    left: 200px;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  /* ----------------------------------------------------------- */
+  /* Formulaire */
+  .h2Formulaire{
+    position: relative;
+    font-size: 56px;
+    text-align: center;
+    color: black;
+    font-family: 'BebasNeueRegular';
+    letter-spacing: 10px;
+    z-index: 1;
+  }
+  
+  form {
+    /* Uniquement centrer le formulaire sur la page */
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 1em;
+    padding-top: px;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées */
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* Pour s'assurer que tous les champs texte ont la même police.
+       Par défaut, les textarea ont une police monospace */
+    font: 1em sans-serif;
+  
+    /* Pour que tous les champs texte aient la même dimension */
+    width: 600px;
+    box-sizing: border-box;
+  
+    /* Pour harmoniser le look & feel des bordures des champs texte */
+    border: 1px solid yellow;
+  }
+  #mail {
+    border: 1px solid #a6d2db;
+  }
+  #msg {
+    border: 1px solid #dda4bd;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Pour souligner légèrement les éléments actifs */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+    vertical-align: top;
+  
+    /* Pour donner assez de place pour écrire du texte */
+    height: 5em;
+  }
+  
+  .button {
+    padding-left: 90px; /* même taille que les étiquettes */
+  }
+  
+  button {
+    margin-left: 0.5em;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #f7da72;
+  }
+  .buttoncircus {
+    border-radius: 5%;
+  }
+  
+  
+  
+  
+  
+  /* Background image */
+  
+  .bg{
+    height: 5000px;
+    background-image: url(img/background_lp.png);
+    background-size: cover;
+  }
+  
+  .titre1{
+    font-size: 50px;
+    
+  }
